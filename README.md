@@ -1,3 +1,23 @@
+About tRPC:
+
+tRPC (typescript remote procedure call): thay vì gọi API của những system với nhau thì RPC gọi function của các system với nhau
+FE vs BE khác nhau. FE có thể gọi function từ BE thông qua một đối tượng nào đó.
+tRPC:
+procedure: endpoint
+query procedure: get
+mutation procedure
+context
+middleware
+điểm mạnh của tRPC là validation
+Benefit:
+Quan trọng: Type Procedure Reference
+ODM (Object document mapping)
+Schema
+Sau khi gọi api thì mình biết loại của nó và những thứ mà mình muốn trả về
+
+- Resolver: get =
+- Mutation: post | put (but no important) = change data
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
