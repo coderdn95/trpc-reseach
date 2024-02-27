@@ -1,16 +1,11 @@
-import { z } from 'zod';
-import { procedure, router } from '../trpc';
-export const appRouter = router({
-  hello: procedure.input(
-      z.object({
-        text: z.string(),
-      }),
-    )
-    .query((opts) => {
-      return {
-        greeting: `hello ${opts.input.text}`,
-      };
-    }),
+import { t } from "../trpc";
+import { petRouter } from "./pet";
+import { postRouter } from "./post";
+import { userRouter } from "./user";
+
+
+export const appRouter = t.router({
+    user: userRouter, // Write procedures under "user" namespace
+    post: postRouter,
+    pet: petRouter
 });
-// export type definition of API
-export type AppRouter = typeof appRouter;
