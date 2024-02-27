@@ -1,8 +1,6 @@
 About tRPC:
 
-- tRPC (typescript remote procedure call): thay vì gọi API của những system
-- với nhau thì RPC gọi function của các system với nhau
-- FE vs BE khác nhau. FE có thể gọi function từ BE thông qua một đối tượng nào đó.
+- tRPC (typescript remote procedure call): thay vì gọi API của những system với nhau thì RPC gọi function của các system với nhau (FE vs BE khác nhau). FE có thể gọi function từ BE thông qua một đối tượng nào đó.
 - tRPC:
 
 * procedure: endpoint
