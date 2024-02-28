@@ -59,3 +59,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Storybook:
+
+- Giúp chúng ta xây dựng trang tài liệu nhanh chóng, ngoài ra giúp phát triển UI một cách tốt hơn và kiểm thử phần UI của mình
+- Trong một trang web thì nó tách biệt độc lập với logic của ứng dụng, chủ yếu xây dựng component mà thôi
+
+ex:
+https://github.com/WebDevSimplified/storybook-react-crash-course
+
+https://github.com/igor-lid/nextjs-typescript-storybook-tailwind-example/tree/main
+
+https://github.com/elitizon/nextjs-tailwind-storybook
